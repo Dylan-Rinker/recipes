@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+.ingredients-container {
+  display: flex;
+}
+
+.ingredients-column {
+  flex: 1;
+  margin: 10px;
+}
+
+.ingredients-column h3{
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Headings */
+h2, h3 {
+  font-family: 'Georgia', serif;
+}
+
+/* Body text */
+p, li {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Center headings for ingredients and instructions sections */
+.ingredients h2, .instructions h2 {
+  text-align: center;
+}
